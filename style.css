@@ -1,0 +1,20 @@
+
+h3{
+font-size:30px !important;
+}
+
+.btn-success:hover{
+background-color: red;
+}
+
+canvas{
+background-color: white;
+animation-name:alastor;
+animation-duration:4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes alastor{
+from{box-shadow:1px 1px 20px red;}
+to{box-shadow: 1px 1px 20px lightblue;}
+}
